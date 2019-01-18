@@ -1,0 +1,41 @@
+header{
+	background-color: black;
+	color: green;
+}
+
+#section1 {
+	background-color: red;
+	width: 25%; /*largeur de la section en % de page*/
+	color: yellow;
+	position: absolute;
+}
+
+#section2 {
+	background-color: indigo;
+	width: 25%;
+	color: green;
+	position: absolute;
+	margin-left: 25% 
+} /*dimentionne une marge en % de page*/
+
+#section3 {
+	background-color: green;
+	width: 25%;
+	color: blue;
+	position: absolute;
+	margin-left: 50%
+}
+#section4 {
+	background-color: grey;
+	width: 25%;
+	color: black;
+	margin-left: 75%;
+	position: relative;
+}
+footer{
+	background-color: yellow;
+						color: green;
+}
+html,body {
+	margin: 0
+} /*permet d'enlever la bordure du body*/
